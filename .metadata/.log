@@ -1,0 +1,197 @@
+!SESSION 2014-08-17 04:31:10.819 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application com.aptana.ide.desktop.integration.Application -application com.aptana.ide.desktop.integration.Application P:\Projects\websites\angular\directives\combobox.js
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application com.aptana.ide.desktop.integration.Application -data P:\Projects\websites\angular -application com.aptana.ide.desktop.integration.Application P:\Projects\websites\angular\directives\combobox.js
+
+!ENTRY org.eclipse.ui.workbench 2 0 2014-08-17 04:31:18.226
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2014-08-17 04:31:18.226
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@823c6d),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@823c6d),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2014-08-17 04:31:18.226
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@823c6d),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@823c6d),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2014-08-17 04:31:18.226
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@823c6d),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@823c6d),sourcePriority=16384)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:20.859
+!MESSAGE Failed to retrieve default libraries for C:\Users\fatih\AppData\Local\Aptana RadRails\plugins\org.jruby_1.2.0.9419p2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:21.596
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:21.597
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem -v
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:21.598
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:21.598
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem sources -l
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:24.540
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:24.541
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
+
+!ENTRY com.aptana.radrails.intro 4 0 2014-08-17 04:31:27.562
+!MESSAGE http://www.aptana.com/products/radrails/tools/radrails/my_radrails
+!STACK 0
+java.io.FileNotFoundException: http://www.aptana.com/products/radrails/tools/radrails/my_radrails
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URLConnection.getContent(Unknown Source)
+	at java.net.URL.getContent(Unknown Source)
+	at com.aptana.radrails.intro.editors.MyRadRailsPageLoader$1.run(MyRadRailsPageLoader.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:29.563
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:29.619
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:29.678
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:29.732
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:29.786
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:29.840
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:29.895
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:29.950
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:30.005
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:30.061
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:30.116
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:30.170
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:38.164
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:38.165
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem install -l gem_plugin-0.2.3.gem in working dir: P:\Projects\websites\angular\.metadata\.plugins\com.aptana.rdt
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:41.879
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:41.880
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:42.556
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:42.557
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem install -l linecache-0.43-mswin32.gem in working dir: P:\Projects\websites\angular\.metadata\.plugins\com.aptana.rdt
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:44.619
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:44.620
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:45.239
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:45.240
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem install -l ruby-debug-base-0.10.3-mswin32.gem in working dir: P:\Projects\websites\angular\.metadata\.plugins\com.aptana.rdt
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:49.373
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:49.374
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:49.982
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:49.983
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem install -l cgi_multipart_eof_fix-2.5.0.gem in working dir: P:\Projects\websites\angular\.metadata\.plugins\com.aptana.rdt
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:51.594
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:51.595
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:52.317
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:52.318
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem install -l fastthread-1.0.1-i386-mswin32.gem in working dir: P:\Projects\websites\angular\.metadata\.plugins\com.aptana.rdt
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:54.389
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:54.390
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:55.039
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:55.040
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem install -l mysql-2.7.3-x86-mswin32.gem in working dir: P:\Projects\websites\angular\.metadata\.plugins\com.aptana.rdt
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:56.508
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:56.509
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:31:57.128
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:31:57.129
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem install -l mongrel-1.1.5-x86-mswin32-60.gem in working dir: P:\Projects\websites\angular\.metadata\.plugins\com.aptana.rdt
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:32:03.721
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:32:03.721
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:32:04.356
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:32:04.356
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem install -l ruby-debug-ide-0.4.5.gem in working dir: P:\Projects\websites\angular\.metadata\.plugins\com.aptana.rdt
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2014-08-17 04:32:08.056
+!MESSAGE Failed to retrieve platform for P:\RailsInstaller\Ruby1.9.3
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2014-08-17 04:32:08.057
+!MESSAGE Starting: P:\RailsInstaller\Ruby1.9.3\bin\ruby.exe -I P:\Projects\websites\angular\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- P:\RailsInstaller\Ruby1.9.3\bin\gem query -d
